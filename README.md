@@ -49,7 +49,9 @@
    ```powershell
    cd "C:\Path\To\Script"
 4. 執行腳本
-
+   ```
+   .\ManageSerialPorts.ps1
+   ```
 ---
 
 ## 注意事項
@@ -60,6 +62,4 @@
    ```
    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
    ```
-   ```
-   .\ManageSerialPorts.ps1
-   ```
+
